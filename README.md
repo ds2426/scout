@@ -1,2 +1,4 @@
-# scout
-warehouse managment application
+to run app 
+
+yarn install
+yarn start

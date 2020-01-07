@@ -1,0 +1,47 @@
+/* for nav-barbar */
+.ui.menu{
+  background: #364E3D !important;
+  margin-bottom: 10px;
+  .item {
+    color: #FFFFFF;
+    font-weight: bold;
+    :hover {
+      color: black;
+      font-weight: bold;
+    }
+    &.active {
+      font-weight: bold;
+      color: #F2642D;
+    }
+  }
+}
+
+.ui.menu .item>img:not(.ui) {
+  width: 150px;
+}
+  .nav-bar-user-button {
+    display: block;
+    background-position: -307px -172px;
+    background-image: url(../../images/sprite.png);
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 25px;
+    text-indent: -1000%;
+    margin-left: auto;
+  }
+  
+  .nav-bar-item {
+    margin-left: 20px;
+  }
+
+  .logo-container {
+    position: relative;
+    top: 0px; 
+    left: 0px;
+  }
+
+  .ui.button {
+    color: #FFFFFF;
+    background-color: #F2642D;
+  }

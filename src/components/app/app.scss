@@ -1,0 +1,24 @@
+body {
+  margin: 100px 0px;
+  font-family: "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: #F2642D;
+  
+  &:hover {
+    color: #FFFFFF;
+  }
+}
+
+.ui.styled.accordion .active.title {
+  color: #F2642D;
+}
+
+
+h4 {
+  margin-bottom: 30px;
+}
