@@ -1,0 +1,2 @@
+# scout
+warehouse managment application
